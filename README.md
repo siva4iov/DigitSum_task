@@ -31,3 +31,17 @@ This approach gives us a strong speed gain:
 
 # Conclusion
 I think, with large amount of ids, There is a use of the second algorithm.
+
+
+# UPDATE
+
+I found out how to solve this task much faster.
+
+## Third approach
+The main idea is to precalculate the groups for bases and then add them up with respect to loc.
+
+This approach works much faster and gives us __accurate__ results.
+
+This approach gives us a incredible(compared to previous) speed gain:
+
+![update](/misc/update.png)
